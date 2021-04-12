@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/yanlin/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanlin/dev_ws/build/cpp_srvcli -- -j8 -l8
+[0.050s] [35m[1mScanning dependencies of target server[0m
+[0.065s] [ 50%] Built target client
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.684s] [100%] [32m[1mLinking CXX executable server[0m
+[1.799s] [100%] Built target server
+[1.809s] Invoked command in '/home/yanlin/dev_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yanlin/dev_ws/build/cpp_srvcli -- -j8 -l8
+[1.842s] Invoking command in '/home/yanlin/dev_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanlin/dev_ws/build/cpp_srvcli
+[1.849s] -- Install configuration: ""
+[1.850s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.850s] -- Set runtime path of "/home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[1.850s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.851s] -- Set runtime path of "/home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[1.851s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.852s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.852s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.852s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.852s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.852s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.852s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.852s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.853s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[1.853s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[1.853s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[1.853s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[1.853s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[1.853s] -- Up-to-date: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[1.853s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[1.855s] Invoked command in '/home/yanlin/dev_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yanlin/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yanlin/dev_ws/build/cpp_srvcli

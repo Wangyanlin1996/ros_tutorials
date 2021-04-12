@@ -1,0 +1,9 @@
+[01m[K/home/yanlin/dev_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/yanlin/dev_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:9:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krequese[m[K’ was not declared in this scope; did you mean ‘[01m[Krequest[m[K’?
+    9 |   response->sum = request->a + request->b + [01;31m[Krequese[m[K->c;
+      |                                             [01;31m[K^~~~~~~[m[K
+      |                                             [32m[Krequest[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

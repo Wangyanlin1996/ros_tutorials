@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000967] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001011] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001044] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001081] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001111] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/yanlin/dev_ws/install/tutorial_interfaces')])}
+[0.001150] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.010192] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.010759] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.011655] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yanlin/dev_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/yanlin/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'yanlin'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1981'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yanlin/dev_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yanlin'), ('OLDPWD', '/home/yanlin/dev_ws/src/cpp_pubsub'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/yanlin/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yanlin'), ('JOURNAL_STREAM', '9:45755'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'yanlin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yanlin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yanlin-MRC-WX0:@/tmp/.ICE-unix/2017,unix/yanlin-MRC-WX0:/tmp/.ICE-unix/2017'), ('INVOCATION_ID', '442a1f3a29b04851ae2d322283cb8a2a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c842205f_2a35_49ac_83c2_57ddf0528478'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.251'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yanlin/dev_ws/build/cpp_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yanlin/dev_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yanlin/dev_ws/install/tutorial_interfaces:/opt/ros/foxy')]), 'shell': False}
+[0.035736] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.052984] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099669] (-) TimerEvent: {}
+[0.197624] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.199770] (-) TimerEvent: {}
+[0.224098] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.227598] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299906] (-) TimerEvent: {}
+[0.307938] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.350433] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.351619] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400007] (-) TimerEvent: {}
+[0.473192] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/yanlin/dev_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[0.480682] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.500096] (-) TimerEvent: {}
+[0.531817] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.532593] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.532801] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.532898] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.533414] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.533511] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.533917] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.534620] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.534719] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.534982] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.536825] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.545312] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.546621] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/yanlin/dev_ws/build/cpp_pubsub\n'}
+[0.566482] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.566775] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.588193] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.588369] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.600225] (-) TimerEvent: {}
+[0.700489] (-) TimerEvent: {}
+[0.800799] (-) TimerEvent: {}
+[0.901127] (-) TimerEvent: {}
+[1.001448] (-) TimerEvent: {}
+[1.101756] (-) TimerEvent: {}
+[1.202069] (-) TimerEvent: {}
+[1.302435] (-) TimerEvent: {}
+[1.402760] (-) TimerEvent: {}
+[1.503018] (-) TimerEvent: {}
+[1.603315] (-) TimerEvent: {}
+[1.650732] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:32:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.650973] (cpp_pubsub) StderrLine: {'line': b'   32 |   void topic_callback(const \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num::SharedPtr msg) const\n'}
+[1.651088] (cpp_pubsub) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.651213] (cpp_pubsub) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.651274] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:32:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.651336] (cpp_pubsub) StderrLine: {'line': b'   32 |   void topic_callback(const tutorial_interfaces::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KNum::SharedPtr msg) const\n'}
+[1.651392] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.651448] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:32:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.651503] (cpp_pubsub) StderrLine: {'line': b'   32 |   void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst tutorial_interfaces::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KNum::SharedPtr msg) const\n'}
+[1.651558] (cpp_pubsub) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[1.651614] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.651668] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:32:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.651729] (cpp_pubsub) StderrLine: {'line': b'   32 |   void topic_callback(const tutorial_interfaces::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::Num::SharedPtr msg) const\n'}
+[1.651784] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.651838] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.651892] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:32:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNum\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.651951] (cpp_pubsub) StderrLine: {'line': b'   32 |   void topic_callback(const tutorial_interfaces::msg::\x1b[01;31m\x1b[KNum\x1b[m\x1b[K::SharedPtr msg) const\n'}
+[1.652005] (cpp_pubsub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.652058] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.652119] (cpp_pubsub) StderrLine: {'line': b'   47 |   rclcpp::Publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr publisher_;\n'}
+[1.652173] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652226] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.652280] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.652333] (cpp_pubsub) StderrLine: {'line': b'   47 |   rclcpp::Publisher<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.652386] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.652440] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.652494] (cpp_pubsub) StderrLine: {'line': b'   47 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.652548] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.652603] (cpp_pubsub) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.652971] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:47:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.653038] (cpp_pubsub) StderrLine: {'line': b'   47 |   rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.653094] (cpp_pubsub) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653149] (cpp_pubsub) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.653610] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.653701] (cpp_pubsub) StderrLine: {'line': b'   36 |   rclcpp::Subscription<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>::SharedPtr subscription_;\n'}
+[1.653759] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.653814] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.653872] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.653927] (cpp_pubsub) StderrLine: {'line': b'   36 |   rclcpp::Subscription<tutorial_interfaces::msg::Num\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[1.653982] (cpp_pubsub) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.654037] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[1.654091] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.654157] (cpp_pubsub) StderrLine: {'line': b'   36 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[1.654213] (cpp_pubsub) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.654266] (cpp_pubsub) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.655444] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:36:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.655541] (cpp_pubsub) StderrLine: {'line': b'   36 |   rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[1.655606] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.655723] (cpp_pubsub) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[1.655785] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.655842] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.655904] (cpp_pubsub) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10);\n'}
+[1.655959] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.656013] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.658073] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.658207] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.658414] (cpp_pubsub) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<tutorial_interfaces::msg::Num>(\n'}
+[1.658492] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.658549] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[1.658604] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.658660] (cpp_pubsub) StderrLine: {'line': b'   32 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>("topic", 10);\n'}
+[1.658715] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.658768] (cpp_pubsub) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.658821] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.658876] (cpp_pubsub) StderrLine: {'line': b'   32 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<tutorial_interfaces::msg::Num>\x1b[m\x1b[K("topic", 10);\n'}
+[1.658931] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.658984] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.659040] (cpp_pubsub) StderrLine: {'line': b'   32 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.659097] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.659150] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.659204] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.659257] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.659310] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[1.659363] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.659420] (cpp_pubsub) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[1.659474] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.659530] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.659584] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:32:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.659638] (cpp_pubsub) StderrLine: {'line': b'   32 |     publisher_ = this->create_publisher<tutorial_interfaces::msg::Num>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.659695] (cpp_pubsub) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.660636] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:27:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.660734] (cpp_pubsub) StderrLine: {'line': b'   27 |     subscription_ = this->create_subscription<\x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num>(\n'}
+[1.660791] (cpp_pubsub) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.660846] (cpp_pubsub) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[1.660901] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:27:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[1.660956] (cpp_pubsub) StderrLine: {'line': b'   27 |     subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<tutorial_interfaces::msg::Num>\x1b[m\x1b[K(\n'}
+[1.661012] (cpp_pubsub) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.666799] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:28:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::create_subscription<<expression error> >(const char [6], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.667039] (cpp_pubsub) StderrLine: {'line': b'   28 |       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.667107] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.667167] (cpp_pubsub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.667225] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.667280] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.667334] (cpp_pubsub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:17\x1b[m\x1b[K:\n'}
+[1.667389] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.667451] (cpp_pubsub) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[1.667506] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.667561] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.667620] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:28:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.667676] (cpp_pubsub) StderrLine: {'line': b'   28 |       "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.667734] (cpp_pubsub) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.668388] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.668478] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:40:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktutorial_interfaces\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.668542] (cpp_pubsub) StderrLine: {'line': b'   40 |     auto message = \x1b[01;31m\x1b[Ktutorial_interfaces\x1b[m\x1b[K::msg::Num();\n'}
+[1.668601] (cpp_pubsub) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.671223] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yanlin/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.671347] (cpp_pubsub) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[1.671413] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.671473] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[1.703434] (-) TimerEvent: {}
+[1.803704] (-) TimerEvent: {}
+[1.903987] (-) TimerEvent: {}
+[1.976807] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[1.977036] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2\n'}
+[1.977124] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[2.004118] (-) TimerEvent: {}
+[2.017847] (cpp_pubsub) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.018054] (cpp_pubsub) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.018182] (cpp_pubsub) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.020043] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[2.053666] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[2.064835] (-) EventReactorShutdown: {}

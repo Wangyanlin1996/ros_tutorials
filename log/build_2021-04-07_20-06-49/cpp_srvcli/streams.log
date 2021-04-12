@@ -1,0 +1,83 @@
+[0.010s] Invoking command in '/home/yanlin/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yanlin/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/yanlin/dev_ws/install/cpp_srvcli
+[0.054s] -- The C compiler identification is GNU 9.3.0
+[0.096s] -- The CXX compiler identification is GNU 9.3.0
+[0.099s] -- Check for working C compiler: /usr/bin/cc
+[0.155s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.156s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.293s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.371s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.390s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.390s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.544s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.582s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.634s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.650s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.750s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.751s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Looking for pthread.h
+[0.808s] -- Looking for pthread.h - found
+[0.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.866s] -- Looking for pthread_create in pthreads
+[0.912s] -- Looking for pthread_create in pthreads - not found
+[0.912s] -- Looking for pthread_create in pthread
+[0.969s] -- Looking for pthread_create in pthread - found
+[0.970s] -- Found Threads: TRUE  
+[1.109s] -- Found example_interfaces: 0.9.0 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.225s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.282s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.283s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.283s] -- Configured cppcheck include dirs: 
+[1.283s] -- Configured cppcheck exclude dirs and/or files: 
+[1.284s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.284s] -- Configured cpplint exclude dirs and/or files: 
+[1.285s] -- Added test 'lint_cmake' to check CMake code style
+[1.285s] -- Added test 'uncrustify' to check C / C++ code style
+[1.285s] -- Configured uncrustify additional arguments: 
+[1.286s] -- Added test 'xmllint' to check XML markup files
+[1.288s] -- Configuring done
+[1.297s] -- Generating done
+[1.299s] -- Build files have been written to: /home/yanlin/dev_ws/build/cpp_srvcli
+[1.304s] Invoked command in '/home/yanlin/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/yanlin/dev_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/yanlin/dev_ws/install/cpp_srvcli
+[1.306s] Invoking command in '/home/yanlin/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yanlin/dev_ws/build/cpp_srvcli -- -j8 -l8
+[1.339s] [35m[1mScanning dependencies of target server[0m
+[1.339s] [35m[1mScanning dependencies of target client[0m
+[1.420s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.420s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[3.125s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.322s] [ 75%] Built target server
+[3.350s] [100%] [32m[1mLinking CXX executable client[0m
+[3.478s] [100%] Built target client
+[3.487s] Invoked command in '/home/yanlin/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/yanlin/dev_ws/build/cpp_srvcli -- -j8 -l8
+[3.519s] Invoking command in '/home/yanlin/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yanlin/dev_ws/build/cpp_srvcli
+[3.528s] -- Install configuration: ""
+[3.528s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.528s] -- Set runtime path of "/home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.529s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.529s] -- Set runtime path of "/home/yanlin/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.529s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.530s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.531s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.531s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.531s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.531s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.531s] -- Installing: /home/yanlin/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.534s] Invoked command in '/home/yanlin/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/yanlin/dev_ws/build/cpp_srvcli
